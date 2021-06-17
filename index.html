@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+        <!-- Bootswatch Cosmo Theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css">
+    <title>Juego Ingles</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Quiz</a>
+    </nav>
+
+    <div class="preguntas">
+        <label for="num">I 
+            <select class="pre1" name="pregunta1" id="pregunta1">
+                <option value="respuesta0">seleccionar</option>
+                <option value="respuesta1">are</option>
+                <option value="respuesta2">am</option>
+                <option value="respuesta3">is</option>
+            </select>
+            a student</label>
+            <br><br>
+
+            <div class="divisor"></div>
+        
+        <label for="num">She 
+                <select  name="pregunta2" id="pregunta2">
+                    <option value="respuesta0">seleccionar</option>
+                    <option value="respuesta1">is</option>
+                    <option value="respuesta2">am</option>
+                    <option value="respuesta3">are</option>
+                </select>
+                a teacher</label>
+                <br><br>
+
+            <div class="divisor"></div>
+
+            <label for="num">I
+                <select  name="pregunta3" id="pregunta3">
+                    <option value="respuesta0">seleccionar</option>
+                    <option value="respuesta1">was</option>
+                    <option value="respuesta2">were</option>
+                    <option value="respuesta3">are</option>
+                </select>
+                tired</label>
+                <br><br>
+
+            <div class="divisor"></div>
+            
+            <div style="width:90%;margin-left: auto; margin-right: auto;text-align: center;">
+                <input class="boton" type="button" value="calificar" onclick="calificar()">
+            </div>
+            
+    </div>
+    
+    <div class="respuesta">
+        <h3 id="tuResultado">Calificación</h3>
+    </div>
+
+    <script src="control.js"></script>
+</body>
+</html>

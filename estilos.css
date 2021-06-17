@@ -1,0 +1,47 @@
+.preguntas{
+    width: 70%;
+    background-color:  #f6f8f8;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #f6f8f8;
+}
+
+.divisor{
+    height: 1px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 8px;
+}
+
+.boton{
+    width: 50%;
+    background-color:  #974eeb;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.respuesta{
+    width: 70%;
+    background-color:  #974eeb;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #148f77;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+.respuesta #tuResultado {
+}
+.respuesta #tuResultado {
+}
